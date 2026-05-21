@@ -68,8 +68,7 @@ http://localhost:8501
 ├── docs/
 │   ├── erd.md
 │   ├── methodology.md
-│   ├── reviewer_guide.md
-│   └── ai_handoff_ko.md
+│   └── reviewer_guide.md
 ├── data/
 │   ├── processed/                 # 생성된 정제 CSV
 │   └── zepeto_characterchat.db    # 생성된 SQLite DB
@@ -126,17 +125,3 @@ http://localhost:8501
 - [Persona-consistent dialogue research](https://aclanthology.org/2023.emnlp-main.110/)
 - [AppsFlyer mid-roll ads](https://www.appsflyer.com/blog/tips-strategy/mid-roll-ads/)
 - [NAVER Z](https://www.naverz-corp.com/)
-
-## 레포지토리 메타데이터 추천
-
-**About 영어**
-
-Public-data analytics dashboard for ZEPETO CharacterChat monetization and UX strategy with SQL, clustering, and ad-timing simulation.
-
-**About 한국어**
-
-공개 자료 기반 제페토 캐릭터챗 수익화·UX 분석 대시보드: SQL, 군집분석, 광고 시점 시뮬레이션으로 사용자 경험을 해치지 않는 수익화 가설을 도출합니다.
-
-**Topics**
-
-`streamlit`, `python`, `sql`, `sqlite`, `data-analysis`, `eda`, `clustering`, `kmeans`, `dashboard`, `zepeto`, `monetization`, `ux-research`, `ai-character`, `character-chat`, `simulation`, `public-data`, `product-analytics`, `ad-simulation`, `metaverse`
