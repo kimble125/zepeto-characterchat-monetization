@@ -78,7 +78,7 @@ SQL_QUERIES = {
 
 def configure_page() -> None:
     st.set_page_config(
-        page_title="ZEPETO CharacterChat Monetization & UX",
+        page_title="제페토 캐릭터챗 수익화·UX 분석",
         page_icon="Z",
         layout="wide",
         initial_sidebar_state="expanded",
@@ -180,7 +180,7 @@ def format_krw(value: float) -> str:
 
 
 def show_overview(tables: dict[str, pd.DataFrame]) -> None:
-    st.header("Overview")
+    st.header("개요")
     st.markdown(
         """
         <div class="disclaimer">
@@ -201,7 +201,7 @@ def show_overview(tables: dict[str, pd.DataFrame]) -> None:
     col1.metric("분석 서비스", f"{len(tables['services'])}개")
     col2.metric("출처 레지스트리", f"{len(tables['sources'])}건")
     col3.metric("제페토 최저 진입가", format_krw(zepeto_feature["entry_price_krw"]))
-    col4.metric("제페토 Balanced Score", f"{zepeto['balanced_opportunity_score']:.1f}/100")
+    col4.metric("제페토 균형 기회 점수", f"{zepeto['balanced_opportunity_score']:.1f}/100")
 
     st.subheader("분석 질문")
     st.markdown(
@@ -212,34 +212,34 @@ def show_overview(tables: dict[str, pd.DataFrame]) -> None:
     analysis_modules = pd.DataFrame(
         [
             {
-                "module": "Data Foundation",
-                "evidence": "가격 관찰값, 공식 웹 자료, 논문, 직접 사용 관찰을 source registry로 통합",
-                "output": "정제 CSV, SQLite DB",
+                "분석 모듈": "데이터 기반",
+                "근거/처리": "가격 관찰값, 공식 웹 자료, 논문, 직접 사용 관찰을 출처 레지스트리로 통합",
+                "산출물": "정제 CSV, SQLite DB",
             },
             {
-                "module": "SQL & EDA",
-                "evidence": "서비스별 최저 진입가, 월 환산가, 플랜 수, 재화 의존도 분석",
-                "output": "SQL query set, KPI table",
+                "분석 모듈": "SQL·EDA",
+                "근거/처리": "서비스별 최저 진입가, 월 환산가, 플랜 수, 재화 의존도 분석",
+                "산출물": "SQL 쿼리, KPI 테이블",
             },
             {
-                "module": "UX Research Operationalization",
-                "evidence": "외형/언어 스타일, 3D 캐릭터 AI, 실시간 입력 인식 연구를 변수화",
-                "output": "Immersion, Persona, Metaverse scores",
+                "분석 모듈": "UX 연구 변수화",
+                "근거/처리": "외형/언어 스타일, 3D 캐릭터 AI, 실시간 입력 인식 연구를 변수화",
+                "산출물": "몰입도, 페르소나, 메타버스 결합도 점수",
             },
             {
-                "module": "ML Segmentation",
-                "evidence": "가격·구독·재화·광고·UX 피처 기반 KMeans 유형화",
-                "output": "Monetization position map",
+                "분석 모듈": "군집분석",
+                "근거/처리": "가격·구독·재화·광고·UX 피처 기반 KMeans 유형화",
+                "산출물": "수익화 포지션맵",
             },
             {
-                "module": "Ad Timing Simulation",
-                "evidence": "4번째/19번째 발화 관찰값과 completion-rate 가정 기반 시뮬레이션",
-                "output": "Ad Revenue Potential, UX Risk Index",
+                "분석 모듈": "광고 시점 시뮬레이션",
+                "근거/처리": "4번째/19번째 발화 관찰값과 광고 완료율 가정 기반 시뮬레이션",
+                "산출물": "광고 수익 가능성, UX 위험 지수",
             },
             {
-                "module": "Strategy",
-                "evidence": "수익화 레버와 UX 리스크를 함께 본 실험 후보 도출",
-                "output": "월드/아바타 보상형 광고, 기억 패키지, 단기 패스 가설",
+                "분석 모듈": "전략 가설",
+                "근거/처리": "수익화 레버와 UX 리스크를 함께 본 실험 후보 도출",
+                "산출물": "월드/아바타 보상형 광고, 기억 패키지, 단기 패스 가설",
             },
         ]
     )
@@ -265,7 +265,7 @@ def show_overview(tables: dict[str, pd.DataFrame]) -> None:
 
 
 def show_pipeline(tables: dict[str, pd.DataFrame]) -> None:
-    st.header("Data Pipeline")
+    st.header("데이터 파이프라인")
     st.markdown(
         '<p class="section-note">수집 자료를 source registry로 통합하고, 가격/UX/광고 관찰값을 SQLite 분석 테이블로 정규화했습니다.</p>',
         unsafe_allow_html=True,
@@ -324,7 +324,7 @@ def show_pipeline(tables: dict[str, pd.DataFrame]) -> None:
 
 
 def show_pricing(tables: dict[str, pd.DataFrame]) -> None:
-    st.header("Pricing & Monetization")
+    st.header("가격·수익화")
     st.markdown(
         '<p class="section-note">가격 문자열과 결제 주기를 월 환산가로 표준화하고, 구독·재화·광고·단기 패스 여부를 비교했습니다.</p>',
         unsafe_allow_html=True,
@@ -370,7 +370,7 @@ def show_pricing(tables: dict[str, pd.DataFrame]) -> None:
 
 
 def show_sql_and_kpi(tables: dict[str, pd.DataFrame]) -> None:
-    st.header("EDA & SQL")
+    st.header("EDA·SQL")
     st.markdown(
         '<p class="section-note">SQLite 쿼리로 EDA 결과를 재현하고, 논문 기반 UX 변수와 수익화 변수를 KPI로 결합했습니다.</p>',
         unsafe_allow_html=True,
@@ -423,7 +423,7 @@ def show_sql_and_kpi(tables: dict[str, pd.DataFrame]) -> None:
 
 
 def show_ml(tables: dict[str, pd.DataFrame]) -> None:
-    st.header("ML Segmentation")
+    st.header("군집분석")
     st.markdown(
         '<p class="section-note">표본이 작아 예측 회귀보다 KMeans 기반 유형화가 적합합니다. 목표는 정답 예측이 아니라 포지셔닝 해석입니다.</p>',
         unsafe_allow_html=True,
@@ -461,7 +461,7 @@ def show_ml(tables: dict[str, pd.DataFrame]) -> None:
 
 
 def show_ad_simulator() -> None:
-    st.header("Ad Simulator")
+    st.header("광고 시뮬레이터")
     st.markdown(
         '<p class="section-note">직접 관찰한 4번째/19번째 발화 광고 시점을 기준으로, 노출 시점을 조정했을 때 수익 가능성과 UX 위험이 어떻게 바뀌는지 비교합니다.</p>',
         unsafe_allow_html=True,
@@ -532,7 +532,7 @@ def show_ad_simulator() -> None:
 
 
 def show_strategy(tables: dict[str, pd.DataFrame]) -> None:
-    st.header("Strategy")
+    st.header("전략")
     st.markdown(
         '<p class="section-note">분석 결과를 제페토 캐릭터챗에 적용할 수 있는 실험 가설로 번역했습니다.</p>',
         unsafe_allow_html=True,
@@ -584,18 +584,18 @@ def main() -> None:
     configure_page()
     tables = load_dashboard_data()
 
-    st.title("ZEPETO CharacterChat Monetization & UX Analytics")
-    st.caption("Public-data portfolio dashboard for UX-safe monetization strategy")
+    st.title("제페토 캐릭터챗 수익화·UX 분석 대시보드")
+    st.caption("공개 자료 기반 수익화·UX 전략 분석")
 
     tabs = st.tabs(
         [
-            "Overview",
-            "Data Pipeline",
-            "Pricing & Monetization",
-            "EDA & SQL",
-            "ML Segmentation",
-            "Ad Simulator",
-            "Strategy",
+            "개요",
+            "데이터 파이프라인",
+            "가격·수익화",
+            "EDA·SQL",
+            "군집분석",
+            "광고 시뮬레이터",
+            "전략",
         ]
     )
 
