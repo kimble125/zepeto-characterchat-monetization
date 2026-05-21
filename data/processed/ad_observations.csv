@@ -1,0 +1,5 @@
+observation_id,service_id,observation_type,turn_number,minutes_from_start,value,unit,source_id,note
+zepeto_ad_first_turn,zepeto,direct_use,4.0,5.0,1.0,ad_impression,local_experience,제페토 캐릭터챗 직접 사용 중 약 4번째 발화 전후 광고 관찰
+zepeto_ad_second_turn,zepeto,direct_use,19.0,10.0,1.0,ad_impression,local_experience,약 19번째 발화 이후 추가 광고 관찰
+midroll_completion_rate,industry,benchmark,,,0.97,completion_rate,appsflyer_midroll,미드롤 광고 완료율 벤치마크
+preroll_completion_rate,industry,benchmark,,,0.74,completion_rate,appsflyer_midroll,프리롤 광고 완료율 벤치마크

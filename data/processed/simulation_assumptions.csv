@@ -1,0 +1,6 @@
+assumption_id,assumption_name,value,unit,description,source_id
+session_distribution,Power-law conversation length,1.85,zipf_shape,대화 세션 길이는 짧은 세션이 많고 긴 세션이 적은 멱법칙 분포로 가정,xiaoice_2018
+max_turn_clip,Max simulated turns,80.0,turns,극단적으로 긴 세션이 평균을 왜곡하지 않도록 최대 발화 수를 80으로 절단,xiaoice_2018
+ad_cpm,Rewarded/mid-roll CPM scenario,2500.0,KRW per 1000 completed impressions,실제 제페토 광고 단가가 아닌 민감도 분석용 CPM 가정,appsflyer_midroll
+current_first_ad_turn,Observed first ad timing,4.0,turn,직접 관찰된 첫 광고 노출 시점,local_experience
+current_second_ad_turn,Observed second ad timing,19.0,turn,직접 관찰된 두 번째 광고 노출 시점,local_experience

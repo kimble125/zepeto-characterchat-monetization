@@ -1,0 +1,31 @@
+plan_id,service_id,plan_name,plan_type,price_krw,billing_cycle_months,currency_unit,currency_amount,benefit_summary,source_id,monthly_equivalent_krw,unit_price_krw
+cai_plus_monthly,character_ai,c.ai+ Monthly,subscription,14000,1.0,,,"우선 접속, 빠른 응답 등 유료 구독 혜택",local_price_summary,14000.0,
+cai_plus_annual,character_ai,c.ai+ Annual,subscription,129000,12.0,,,연간 결제 할인,local_price_summary,10750.0,
+talkie_standard_monthly,talkie,Talkie+ Standard Monthly,subscription,14000,1.0,,,Talkie+ Standard 월간 구독,local_price_summary,14000.0,
+talkie_standard_quarterly,talkie,Talkie+ Standard Quarterly,subscription,44000,3.0,,,분기 구독,local_price_summary,14666.67,
+talkie_standard_annual,talkie,Talkie+ Standard Annual,subscription,66000,12.0,,,연간 구독,local_price_summary,5500.0,
+replika_pro_annual,replika,Replika Pro Annual,subscription,71500,12.0,,,Pro 연간 구독,local_price_summary,5958.33,
+replika_ultra_annual,replika,Replika Ultra Annual,subscription,81000,12.0,,,Ultra 연간 구독,local_price_summary,6750.0,
+replika_platinum_annual,replika,Replika Platinum Annual,subscription,91000,12.0,,,Platinum 연간 구독,local_price_summary,7583.33,
+zepeto_premium_lite,zepeto,ZEPETO Premium Lite,subscription,1500,1.0,,,"첫 구독 50% 할인 관찰가. 원가 3,000원",local_price_summary,1500.0,
+zepeto_premium_basic,zepeto,ZEPETO Premium Basic,subscription,6000,1.0,,,Premium Basic 월간 구독,local_price_summary,6000.0,
+zepeto_premium_plus,zepeto,ZEPETO Premium Plus,subscription,15000,1.0,,,Premium Plus 월간 구독,local_price_summary,15000.0,
+zepeto_gems_15,zepeto,15 Gems,virtual_currency,1500,1.0,gems,15.0,소액 젬 패키지,local_price_summary,1500.0,100.0
+zepeto_gems_30,zepeto,30 Gems,virtual_currency,3000,1.0,gems,30.0,젬 패키지,local_price_summary,3000.0,100.0
+zepeto_gems_60,zepeto,60 Gems,virtual_currency,5800,1.0,gems,60.0,젬 패키지,local_price_summary,5800.0,96.6667
+zepeto_gems_150,zepeto,150 Gems,virtual_currency,14500,1.0,gems,150.0,젬 패키지,local_price_summary,14500.0,96.6667
+zepeto_gems_500,zepeto,500 Gems,virtual_currency,47500,1.0,gems,500.0,대용량 젬 패키지,local_price_summary,47500.0,95.0
+zepeto_gems_3000,zepeto,3000 Gems,virtual_currency,279000,1.0,gems,3000.0,최대 젬 패키지,local_price_summary,279000.0,93.0
+zepeto_coins_5000,zepeto,"5,000 Coins",virtual_currency,1500,1.0,coins,5000.0,소액 코인 패키지,local_price_summary,1500.0,0.3
+zepeto_coins_10000,zepeto,"10,000 Coins",virtual_currency,3000,1.0,coins,10000.0,코인 패키지,local_price_summary,3000.0,0.3
+zepeto_coins_30000,zepeto,"30,000 Coins",virtual_currency,8500,1.0,coins,30000.0,대용량 코인 패키지,local_price_summary,8500.0,0.2833
+zeta_pass_1day,zeta,Zeta 1-day Pass,short_pass,2800,0.03333333333333333,,,1일 패스. 단기 체험 패스형 과금,local_price_summary,84000.0,
+zeta_pass_web_monthly,zeta,Zeta Pass Web Monthly,subscription,10900,1.0,,,웹 월간 패스,local_price_summary,10900.0,
+zeta_pass_app_monthly,zeta,Zeta Pass App Monthly,subscription,14900,1.0,,,앱 월간 패스,local_price_summary,14900.0,
+zeta_piece_200,zeta,200 Pieces,virtual_currency,2800,1.0,pieces,200.0,소액 조각 패키지,local_price_summary,2800.0,14.0
+zeta_piece_500,zeta,500 Pieces,virtual_currency,7000,1.0,pieces,500.0,조각 패키지,local_price_summary,7000.0,14.0
+zeta_piece_1000,zeta,"1,000 Pieces",virtual_currency,14000,1.0,pieces,1000.0,조각 패키지,local_price_summary,14000.0,14.0
+zeta_piece_2000,zeta,"2,000 Pieces",virtual_currency,28000,1.0,pieces,2000.0,조각 패키지,local_price_summary,28000.0,14.0
+zeta_piece_3000,zeta,"3,000 Pieces",virtual_currency,42000,1.0,pieces,3000.0,조각 패키지,local_price_summary,42000.0,14.0
+zeta_piece_5000,zeta,"5,000 Pieces",virtual_currency,70000,1.0,pieces,5000.0,대용량 조각 패키지,local_price_summary,70000.0,14.0
+zeta_piece_10000,zeta,"10,000 Pieces",virtual_currency,140000,1.0,pieces,10000.0,최대 조각 패키지,local_price_summary,140000.0,14.0

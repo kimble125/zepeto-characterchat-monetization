@@ -1,0 +1,6 @@
+service_id,service_name,company,home_market,service_positioning,primary_monetization,zepeto_relevance,source_id
+character_ai,Character.AI,Character Technologies,US/global,범용 캐릭터 대화와 팬덤형 챗봇,subscription,캐릭터챗 직접 경쟁 벤치마크,character_ai_subscribe
+talkie,Talkie,SUBSUP / Talkie,global,음성/카드형 AI 캐릭터 대화,subscription,UX 완성도와 캐릭터 탐색 벤치마크,local_price_summary
+replika,Replika,Luka,US/global,장기 관계형 AI companion,subscription,AI companion 장기 engagement 벤치마크,replika_subscription
+zepeto,ZEPETO CharacterChat,NAVER Z,KR/global,3D 아바타·월드 기반 메타버스 캐릭터챗,subscription_currency_ads,분석 대상 서비스,zepeto_premium
+zeta,Zeta,Scatter Lab,KR/global,몰입형 역할극과 AI companion,subscription_currency,국내 AI companion 및 패스형 수익화 벤치마크,zeta_pass

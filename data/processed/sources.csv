@@ -1,0 +1,20 @@
+source_id,title,source_type,url,local_path,used_for,reliability_note
+local_price_summary,"AI 캐릭터 서비스들의 가격, 플랜 구조 요약 및 Zepeto 플랜 분석",local_observation,,"AI 캐릭터 서비스들의 가격, 플랜 구조 요약 및 Zepeto 플랜 분석.md","서비스별 가격, 플랜 구조, 재화 패키지 정리",사용자 제공 관찰 정리본. 스크린샷 기반 수동 수집값
+local_experience,캐릭터챗 경험 및 심화 분석,local_observation,,[네이버Z]캐릭터챗 경험 및 심화 분석.md,"제페토 광고 노출 시점, UX 장단점, 서비스 비교 관찰",직접 사용 관찰값. 표본이 작아 가설 생성용으로만 사용
+character_ai_subscribe,Character.AI c.ai+ subscription page,official,https://character.ai/subscribe,,Character.AI 구독 플랜 확인,공식 페이지이나 가격은 지역/시점에 따라 변동 가능
+replika_subscription,Replika subscription guide,official,https://help.replika.com/hc/en-us/articles/39551043419149-Choosing-a-Subscription,,Replika 유료 플랜 구조 확인,공식 도움말. 실제 앱스토어 가격은 지역별로 다를 수 있음
+zepeto_premium,ZEPETO Premium Regular Subscription Benefits,official,https://support.zepeto.me/hc/en-us/articles/4402066761369-What-are-Premium-Regular-Subscription-Benefits,,ZEPETO Premium 혜택 구조 확인,공식 도움말. 분석에는 로컬 가격 관찰값을 함께 사용
+zeta_pass,Zeta Pass announcement,official,https://zeta-ai.io/en/Announcements/9343,,Zeta Pass 및 단기 패스 구조 확인,공식 공지. 앱/웹 가격 차이는 로컬 관찰값으로 보강
+scatter_lab_intro,Scatter Lab introduction,official,https://www.scatterlab.co.kr/en/intro,,Zeta 운영사 및 AI companion 서비스 맥락,회사 소개 페이지
+kci_character_design_2025,생성형 AI 기반 캐릭터 챗봇 디자인에 대한 사용자 반응 유형별 분석,academic,https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003229348,생성형 AI 기반 캐릭터 챗봇 디자인에 대한 사용자 반응 유형별 분석 -외형적 특징과 언어 스타일을 중심으로-.pdf,"외형, 언어 스타일, 감정 반응, 몰입 관련 UX 변수화",KCI 등재 논문. DOI: https://doi.org/10.25111/jcd.2025.92.24
+kci_3d_character_ai_2023,메타버스 콘텐츠를 위한 3D 캐릭터 AI 시스템분석,academic,https://www.kci.go.kr/kciportal/ci/sereArticleSearch/ciSereArtiView.kci?sereArticleSearchBean.artiId=ART003012083,메타버스 콘텐츠를 위한 3D 캐릭터 AI 시스템분석.pdf,"3D/메타버스 AI 캐릭터의 Path Search, Action Logic, NPC Response, Technology Improvement 변수화",KCI 등재 논문. DOI: https://doi.org/10.25111/jcd.2023.85.36
+hattori_interchat_2017,Display Methods of Text Input Awareness in Real Time for the Typing-Driven Embodied Entrainment Character Chat System,academic,https://www.jstage.jst.go.jp/article/his/19/2/19_141/_article/-char/en,"Display Methods of Text Input Awareness in Real Time for the Typing-Driven Embodied Entrainment Character Chat System_Hattori, Kenji.pdf","실시간 입력 인식, 타이핑 리듬, embodied interaction 근거",J-STAGE 논문. 캐릭터챗 몰입 UX 변수화에 사용
+xiaoice_2018,"The Design and Implementation of XiaoIce, an Empathetic Social Chatbot",academic,https://arxiv.org/abs/1812.08989,,Conversation-turns Per Session을 참여 KPI로 사용하는 근거,대화형 AI 서비스의 장기 참여 KPI 참고
+ai_companion_longitudinal_2025,Longitudinal study on AI companion engagement,academic,https://arxiv.org/abs/2510.10079,,AI companion 장기 관계와 engagement 논의 보조,최신 arXiv 연구. 대시보드에서는 보조 해석 근거로만 사용
+persona_clr_2024,PersonaCLR: Persona Consistency Learning in Dialogue,academic,https://aclanthology.org/2024.sigdial-1.58/,,캐릭터 일관성 및 Persona/Language Fit 변수화,SIGDIAL 논문
+persona_dialogue_2023,Persona-consistent dialogue research,academic,https://aclanthology.org/2023.emnlp-main.110/,,페르소나 일관성 평가 근거 보조,EMNLP 논문
+appsflyer_midroll,AppsFlyer mid-roll ads guide,industry,https://www.appsflyer.com/blog/tips-strategy/mid-roll-ads/,,"미드롤 광고 완료율 97%, 프리롤 74% 비교 근거",산업 블로그. 광고 시뮬레이션의 민감도 가정으로 사용
+umass_video_ads,Understanding the effectiveness of video ads: a measurement study,academic,https://groups.cs.umass.edu/wp-content/uploads/sites/3/2019/12/Understanding-the-effectiveness-of-video-ads-a-measurement-study.pdf,,비디오 광고 효과와 completion 관찰의 보조 근거,측정 연구. 서비스 맥락이 달라 직접 추정에는 제한
+naver_z_corp,NAVER Z corporate website,official,https://www.naverz-corp.com/,,제페토 글로벌/메타버스 서비스 맥락,공식 회사 사이트
+prnewswire_naverz_true,NAVER Z joins hands with TRUE,industry,https://en.prnasia.com/releases/apac/naver-z-joins-hands-with-true-to-power-metaverse-ecosystem-in-thailand-373905.shtml,,"ZEPETO 340M users, 90% overseas, 200+ countries 맥락",보도자료 기반 공개 지표
+sacra_character_ai,Sacra Character.AI revenue estimate,industry,https://sacra.com/c/character-ai/,,AI character market monetization context,외부 추정치. 직접 비교 KPI에는 사용하지 않고 시장 맥락으로만 사용

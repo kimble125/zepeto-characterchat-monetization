@@ -1,0 +1,6 @@
+service_id,has_subscription,has_virtual_currency,has_ads_observed,has_ad_removal_plan,has_short_pass,virtual_currency_dependency,monetization_complexity_score,path_search,action_logic,npc_response,technology_improvement,immersion_fit_score,persona_language_fit,interaction_awareness_score,source_id,feature_note,metaverse_integration_score
+character_ai,1,0,0,1,0,0.0,1.7,1.0,1.2,3.8,3.2,3.8,4.2,3.4,local_experience,강한 캐릭터 대화 자산이 있으나 3D/월드 연계는 약함,2.3
+talkie,1,0,0,0,0,0.0,2.8,1.5,2.0,3.6,3.5,3.5,3.7,4.0,local_experience,"음성 재생, 챗 인스피레이션 등 채팅 UX 기능이 강함",2.65
+replika,1,0,0,0,0,0.0,3.1,1.2,2.2,4.0,3.8,4.4,4.0,3.8,replika_subscription,장기 관계형 AI companion 포지션,2.8
+zepeto,1,1,1,0,0,5.0,5.0,4.5,4.4,3.4,4.7,3.6,3.2,3.2,local_experience,아바타/월드/재화/광고를 결합할 수 있는 메타버스 수익화 레버 보유,4.25
+zeta,1,1,1,1,1,4.0,4.2,1.8,2.5,4.3,3.7,4.5,4.3,3.8,zeta_pass,세계관 설정과 단기 패스/재화 결합이 강점,3.08
